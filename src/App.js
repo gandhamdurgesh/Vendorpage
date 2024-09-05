@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Product from './components/Product';
 import Dashboard from './components/Dashboard'; 
+import AddProductForm from './components/AddProductForm'; 
 
 const App = () => {
   const [sidebarVisible, setSidebarVisible] = useState(true);
@@ -24,11 +25,15 @@ const App = () => {
               <Route path="/" element={<Dashboard />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/products" element={<Product />} />
+              <Route path="/AddProductFrom" element={<AddProductForm />} />
+
             </Routes>
           </div>
         </div>
       </div>
+      
     </Router>
+    
   );
 };
 
