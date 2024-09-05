@@ -50,7 +50,7 @@ const Sidebar = ({ isVisible }) => {
             style={{ color: '#fff', textDecoration: 'none', padding: '5px 0', display: 'flex', alignItems: 'center' }}
             onClick={() => toggleSection('admin')}
           >
-            <FontAwesomeIcon icon={faHome} style={{ marginRight: '10px' }} /> Admin
+            <FontAwesomeIcon icon={faHome} style={{ marginRight: '10px' }} /> Vender
           </Link>
           <Collapse in={openSection === 'admin'}>
             <div style={{ paddingLeft: '20px' }}>
@@ -58,17 +58,9 @@ const Sidebar = ({ isVisible }) => {
               <br />
               <Link to="/products" style={{ color: '#fff', textDecoration: 'none' }}>Products</Link>
               <br />
-              <Link to="/AddProductFrom" style={{ color: '#fff', textDecoration: 'none' }}>AddProductFrom</Link>
+              <Link to="/AddProductForm" style={{ color: '#fff', textDecoration: 'none' }}>AddProductForm</Link>
               <br />
-              <Link to="/AddProductFrom" style={{ color: '#fff', textDecoration: 'none' }}>Customers</Link>
-              <br />
-              <Link to="/AddProductFrom" style={{ color: '#fff', textDecoration: 'none' }}>Customers Details</Link>
-              <br />
-              <Link to="/AddProductFrom" style={{ color: '#fff', textDecoration: 'none' }}>Orders</Link>
-              <br />
-              <Link to="/AddProductFrom" style={{ color: '#fff', textDecoration: 'none' }}>Order Details</Link>
-              <br />
-              <Link to="/AddProductFrom" style={{ color: '#fff', textDecoration: 'none' }}>Refund</Link>
+  
               
             </div>
           </Collapse>
