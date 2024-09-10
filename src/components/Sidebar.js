@@ -46,7 +46,7 @@ const Sidebar = ({ isVisible }) => {
         <p style={{ color: '#B0B0B0', marginBottom: '10px' }}>DASHBOARDS & APPS</p>
         <div>
           <Link
-            to="/dashboard"  // Link updated to point to the Dashboard page
+            to="/dashboard"  
             style={{ color: '#fff', textDecoration: 'none', padding: '5px 0', display: 'flex', alignItems: 'center' }}
             onClick={() => toggleSection('admin')}
           >
